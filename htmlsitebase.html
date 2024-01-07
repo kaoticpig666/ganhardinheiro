@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganhe Dinheiro Respondendo Perguntas</title>
+    
+    <!-- Adicione o link para o arquivo CSS aqui -->
+    <link rel="stylesheet" href="estilizando.css">
+</head>
+
+<body>
+    <header>
+        <h1>Ganhe Dinheiro Respondendo Perguntas</h1>
+    </header>
+
+    <section id="question-container">
+        <h2>Pergunta:</h2>
+        <div id="question-box"></div>
+        <input type="text" id="answer-input" placeholder="Sua resposta">
+        <button onclick="checkAnswer()">Responder</button>
+    </section>
+
+    <section id="earnings-container">
+        <h2>Saldo: R$ <span id="balance">0.00</span></h2>
+        
+        <!-- Use um link <a> para direcionar para saquepage.html -->
+        <a href="saquepage.html" id="withdraw-button" style="display: none;">Sacar</a>
+        
+        <p id="withdraw-text" style="display: none;">
+            Para nos ajudar a continuar com o nosso projeto ajudando pessoas, será necessário que você pague uma taxa de R$10.00 antes de sacar seu dinheiro.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ganhe Dinheiro Respondendo Perguntas</p>
+    </footer>
+
+    <script src="códigobase.js"></script>
+</body>
+
+</html>
